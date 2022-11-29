@@ -1,0 +1,19 @@
+{
+  "name": "nosql-social-network-api",
+  "version": "1.0.0",
+  "description": "A scoial network API where users can share there thoughts and feelings",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheInfamousGrim/NoSQL-Social-Network-API.git"
+  },
+  "author": "George Fincher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheInfamousGrim/NoSQL-Social-Network-API/issues"
+  },
+  "homepage": "https://github.com/TheInfamousGrim/NoSQL-Social-Network-API#readme"
+}
