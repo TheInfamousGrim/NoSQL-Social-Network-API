@@ -65,10 +65,10 @@ function addFriend(req, res) {
 }
 
 // Delete a friend
-function deleteFriend(req, res) {
+function deleteFriendById(req, res) {
     User.findOneAndUpdate({ _id: req.params.userId }, { $pull: { friends: req.params.friendId } }, { new: true })
         .then((user) => (!user ? res.status(404).json({ message: 'No User find with this ID!' }) : res.json(user)))
         .catch((err) => res.status(500).json(err));
 }
 
-module.exports = { getAllUsers, getUserById, createUser, updateUser, deleteUser, addFriend, deleteFriend };
+module.exports = { getAllUsers, getUserById, createUser, updateUser, deleteUser, addFriend, deleteFriendById };
