@@ -4,7 +4,9 @@ const { Schema, model, Types } = require('mongoose');
 const dayjs = require('dayjs');
 
 // Date and Time formatting function
-const dateTimeFormat = () => dayjs().format('MMM DD, YYYY [at] HH:MM');
+function dateTimeFormat(createdAt) {
+    dayjs(createdAt).format('MMM DD, YYYY [at] HH:MM');
+}
 
 // Reaction schema
 const reactionSchema = new Schema(
@@ -16,16 +18,16 @@ const reactionSchema = new Schema(
         reactionBody: {
             type: String,
             required: true,
-            maxLength: 280,
+            maxlength: 280,
         },
-        userName: {
+        username: {
             type: String,
             required: true,
         },
         createdAt: {
             type: Date,
             default: Date.now,
-            get: dateTimeFormat(),
+            get: (createdAtVal) => dateTimeFormat(createdAtVal),
         },
     },
     {
@@ -49,7 +51,7 @@ const thoughtSchema = new Schema(
         createdAt: {
             type: Date,
             default: Date.now,
-            get: dateTimeFormat(),
+            get: (createdAtVal) => dateTimeFormat(createdAtVal),
         },
         username: {
             type: String,

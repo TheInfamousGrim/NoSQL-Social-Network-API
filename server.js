@@ -1,6 +1,11 @@
 const express = require('express');
+const dotenv = require('dotenv');
 const db = require('./config/connection');
 const routes = require('./routes');
+
+// Set up environment variables
+dotenv.config({ path: 'variables.env' });
+
 
 const PORT = process.env.PORT || 3001;
 const app = express();
