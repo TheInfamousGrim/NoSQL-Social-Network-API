@@ -4,7 +4,7 @@ const { User, Thought } = require('../models');
 /* -------------------------------- thoughts -------------------------------- */
 
 // GET all thoughts
-function getThought(req, res) {
+function getThoughts(req, res) {
     Thought.find({})
         .then((thought) => res.json(thought))
         .catch((err) => res.status(500).json(err));
@@ -79,4 +79,4 @@ function deleteReaction(req, res) {
 }
 
 // Export all controller functions
-module.exports = { getThought, getThoughtById, createThought, deleteThought, createReaction, deleteReaction };
+module.exports = { getThoughts, getThoughtById, createThought, deleteThought, createReaction, deleteReaction };
