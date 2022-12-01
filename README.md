@@ -101,7 +101,7 @@ Please follow these steps to use the application
 
 ## Video Walk Through
 
-[Video Link](https://youtu.be/ZCNmQvhZBco)
+[Video Link](https://youtu.be/82C95DjOJlI)
 
 ## Technology
 
