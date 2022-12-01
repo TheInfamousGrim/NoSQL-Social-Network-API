@@ -75,7 +75,7 @@ In order to install this social-network API please follow these steps:
 
 3. Clone this repository into your local repository.
 
-   - `git clone git@github.com:TheInfamousGrim/team-profile-generator.git`.
+   - `git clone git@github.com:TheInfamousGrim/NoSQL-Social-Network-API.git`.
 
 4. Install the dependencies
 
