@@ -24,8 +24,6 @@ function createFakeUsers() {
     return users;
 }
 
-// const fakeUsers = createFakeUsers();
-
 // Select a random friend from the existing users
 function generateFakeFriends(users, currentUserIndex) {
     for (let j = 0; j < 3; j++) {
@@ -49,8 +47,6 @@ function createFakeFriendsList(users) {
     }
 }
 
-// createFakeFriendsList(fakeUsers);
-
 // Select a random user
 function selectRandomUser(users, currentUser) {
     const randUserIndex = Math.floor(Math.random() * users.length);
@@ -70,7 +66,6 @@ function generateFakeReaction(users, currentUser, reactionsArr) {
             createdAt: faker.date.past(),
         });
     }
-    console.log(reactionsArr);
     return reactionsArr;
 }
 
@@ -85,7 +80,7 @@ function generateFakeThought(users, currentUser, thoughtsArray) {
             username: currentUser.username,
         });
         // Generate the reactions for the thought
-        currentThought.reactions.push(generateFakeReaction(users, currentUser, currentThought.reactions));
+        currentThought.reactions = generateFakeReaction(users, currentUser, currentThought.reactions);
         // Push this new thought data to the array of thoughts
         thoughtsArray.push(currentThought);
         // Push the current thought id to the current users thought list
@@ -103,8 +98,6 @@ function createFakeThoughts(users) {
     }
     return thoughtsArray;
 }
-
-// const fakeThoughts = createFakeThoughts(fakeUsers);
 
 /* ---------------------------- connect to the db --------------------------- */
 

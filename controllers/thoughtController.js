@@ -25,7 +25,7 @@ function createThought(req, res) {
     Thought.create(req.body)
         .then(({ _id }) => User.findOneAndUpdate({ _id: req.body.userId }, { $push: { thoughts: _id } }, { new: true }))
         .then((thought) =>
-            !thought ? res.status(404).json({ message: 'There is no thought with this ID! 😭' }) : res.json(thought)
+            !thought ? res.status(404).json({ message: 'There is no user with this ID! 😭' }) : res.json(thought)
         )
         .catch((err) => res.status(500).json(err));
 }
