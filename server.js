@@ -6,8 +6,9 @@ const routes = require('./routes');
 // Set up environment variables
 dotenv.config({ path: 'variables.env' });
 
-
+// Set up the port
 const PORT = process.env.PORT || 3001;
+// Make sure the app is using express
 const app = express();
 
 app.use(express.urlencoded({ extended: true }));
