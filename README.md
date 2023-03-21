@@ -141,7 +141,7 @@ The technology used for the development of this app was:
 
 ## Contribution Guidelines
 
-I'm open to have anyone jump in and contribute just message me on [twitter](https://twitter.com/VaporWhy)
+I'm open to have anyone jump in and contribute just message me on [twitter](https://twitter.com/GrimFunk69)
 
 Please follow the contribution guidelines!
 [Guidelines for contributing](/code_of_conduct.md)
@@ -149,16 +149,16 @@ Please follow the contribution guidelines!
 ## Feedback
 
 ![Ask Me Anything](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:finchergeorge1@gmail.com)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:george@grimfunky.dev)
 
 <img src="https://avatars.githubusercontent.com/u/89855075?v=4" alt="TheInfamousGrim">
 
-Any feedback please email [George Fincher](mailto:finchergeorge1@gmail.com)
+Any feedback please email [George Fincher](mailto:george@grimfunky.dev)
 
 ## Socials
 
-GitHub: [TheInfamousGrim](https://api.github.com/users/TheInfamousGrim)
+GitHub: [TheInfamousGrim](https://github.com/TheInfamousGrim)
 
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/george-fincher-aa7869214/)
 
-[![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)](https://twitter.com/VaporWhy)
+[![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)](https://twitter.com/GrimFunk69)
