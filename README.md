@@ -27,7 +27,7 @@ I went about creating this application using Express.js for routing and as a gen
 
 The main aims that I sought to accomplish by creating this application are as follows:
 
-- To create a basic API that can accepts HTTP requests to perform CRUD operations on a social media style network.
+- To create a basic API that can accept HTTP requests to perform CRUD operations on a social media style network.
 - An API that can GET data (user data, thought data and reaction data) from the db and present it as JSON
 - An API that uses POST, PUT (update) and DELETE HTTP methods and routes to manipulate the data on the db.
 - POST and DELETE routes can successfully create and delete reactions to thoughts, as well as add and remove friends.
