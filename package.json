@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/TheInfamousGrim/NoSQL-Social-Network-API#readme",
   "dependencies": {
-    "dayjs": "^1.11.7",
+    "dayjs": "^1.11.9",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "mongoose": "^7.0.3"
